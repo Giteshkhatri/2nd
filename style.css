@@ -1,0 +1,51 @@
+html , body{
+
+   text-align: center;
+    background-color: rgb(31, 29, 29);
+}
+h1{
+    color: aliceblue;
+}
+.container{
+    position: relative;
+    margin: auto;
+    background-color: blue;
+    width:40vw;
+    height: 40vw;
+    background: url(images.jpg) no-repeat;
+    background-size: 100%;
+    text-align: center;
+
+}
+
+.hour , .minute,.second{
+   border-radius: 5px;
+   position: absolute;
+   background: pink;
+   transform-origin: bottom;
+    
+}
+.hour{
+width: .7%;
+    height: 20%;
+    top: 21%;
+    right: 58%;
+  
+}
+.minute{
+   
+    width: 0.4%;
+    height:22%;
+    top:21%;
+    right: 58%;  
+    
+    
+
+}
+.second{
+    
+    width: 0.2%;
+        height: 25%;
+        top: 21%;
+        right: 58%;
+}
